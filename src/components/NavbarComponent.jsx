@@ -46,9 +46,9 @@ function NavbarComponent() {
           </NavLink>
         </div>
         <div className="navbar-extra">
-          <a href="#" id="hamburger-menu" onClick={toggleClass}>
+          <div id="hamburger-menu" onClick={toggleClass}>
             <i className="fa-solid fa-bars fa-xl"></i>
-          </a>
+          </div>
         </div>
       </nav>
     </>

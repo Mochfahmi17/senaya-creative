@@ -546,6 +546,10 @@ body {
     background-color: #fff;
   }
 
+  .navbar .navbar-logo.text-white {
+    color: #231942;
+    text-shadow: none;
+  }
   .navbar .navbar-logo {
     color: #231942;
     text-shadow: none;
@@ -569,6 +573,9 @@ body {
     font-size: 1.3rem;
     padding: 1.5rem;
     text-shadow: none;
+    color: #231942;
+  }
+  .navbar .navbar-nav a.text-white {
     color: #231942;
   }
 
