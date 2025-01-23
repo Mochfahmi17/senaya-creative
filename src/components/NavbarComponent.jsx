@@ -32,16 +32,16 @@ function NavbarComponent() {
           SENAYA CREATIVE
         </a>
         <div className={`${active ? "navbar-nav active" : "navbar-nav"}`}>
-          <NavLink to="/" className={`${({ isActive, isPending }) => (isPending ? "pending" : isActive ? "active" : "")} ${location.pathname === "/" && "text-white"}`}>
+          <NavLink to="/" className={`${({ isActive, isPending }) => (isPending ? "pending" : isActive ? "active" : "")} ${location.pathname === "/" && !changeColor && "text-white"}`}>
             Home
           </NavLink>
-          <NavLink to="/about" className={`${({ isActive, isPending }) => (isPending ? "pending" : isActive ? "active" : "")} ${location.pathname === "/" && "text-white"}`}>
+          <NavLink to="/about" className={`${({ isActive, isPending }) => (isPending ? "pending" : isActive ? "active" : "")} ${location.pathname === "/" && !changeColor && "text-white"}`}>
             About
           </NavLink>
-          <NavLink to="/portfolio" className={`${({ isActive, isPending }) => (isPending ? "pending" : isActive ? "active" : "")} ${location.pathname === "/" && "text-white"}`}>
+          <NavLink to="/portfolio" className={`${({ isActive, isPending }) => (isPending ? "pending" : isActive ? "active" : "")} ${location.pathname === "/" && !changeColor && "text-white"}`}>
             Portfolio
           </NavLink>
-          <NavLink to="/contact" className={`${({ isActive, isPending }) => (isPending ? "pending" : isActive ? "active" : "")} ${location.pathname === "/" && "text-white"}`}>
+          <NavLink to="/contact" className={`${({ isActive, isPending }) => (isPending ? "pending" : isActive ? "active" : "")} ${location.pathname === "/" && !changeColor && "text-white"}`}>
             Contact Us
           </NavLink>
         </div>

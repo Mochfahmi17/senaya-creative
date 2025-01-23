@@ -60,13 +60,10 @@ body {
   width: 40%;
 }
 
-.navbar.active .navbar-nav a {
+.navbar.active .navbar-nav a.text-white {
   color: #000;
 }
 
-.navbar .navbar-nav a.active.text-white {
-  color: #ffcc01;
-}
 .navbar .navbar-nav a.active {
   color: #ffcc01;
 }
