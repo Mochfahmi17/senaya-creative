@@ -146,9 +146,9 @@ function HomePage() {
         <main>
           <div className="card">
             <h3>Whatsapp</h3>
-            <a href="https://api.whatsapp.com/send/?phone=6285745160032&text&type=phone_number&app_absent=0" className="social-media animate__animated animate__pulse animate__infinite" target="_blank">
+            <a href="https://api.whatsapp.com/send/?phone=6285608819031&text&type=phone_number&app_absent=0" className="social-media animate__animated animate__pulse animate__infinite" target="_blank">
               <i className="fa-brands fa-whatsapp"></i>
-              <p>0857-4516-0032</p>
+              <p>0856-0881-9031</p>
             </a>
           </div>
           <div className="card">
