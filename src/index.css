@@ -67,6 +67,9 @@ body {
 .navbar .navbar-nav a.active {
   color: #ffcc01;
 }
+.navbar .navbar-nav a.active.text-white {
+  color: #ffcc01;
+}
 
 .navbar .navbar-nav a {
   padding: 10px 20px;
