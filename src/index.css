@@ -42,11 +42,14 @@ body {
 .navbar .navbar-logo {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #231942;
+  color: #000;
+}
+.navbar .navbar-logo.text-white {
+  color: #fff;
 }
 
 .navbar.active .navbar-logo {
-  color: #ec4899;
+  color: #8c52ff;
 }
 
 .navbar .navbar-nav {
@@ -57,17 +60,27 @@ body {
   width: 40%;
 }
 
+.navbar.active .navbar-nav a {
+  color: #000;
+}
+
+.navbar .navbar-nav a.active.text-white {
+  color: #ffcc01;
+}
 .navbar .navbar-nav a.active {
-  background-color: #5b51e5;
-  color: #eee;
+  color: #ffcc01;
 }
 
 .navbar .navbar-nav a {
   padding: 10px 20px;
   font-weight: 500;
   font-size: 1rem;
-  color: #231942;
+  color: #000;
   border-radius: 5px;
+}
+
+.navbar .navbar-nav a.text-white {
+  color: #fff;
 }
 
 #hamburger-menu {
@@ -78,7 +91,7 @@ body {
 .hero {
   padding: 0 5%;
   min-height: 100vh;
-  background-color: #ec4899;
+  background-color: #8c52ff;
 }
 
 .hero main {
@@ -119,8 +132,9 @@ body {
   font-size: 1.2rem;
   font-weight: bold;
   border: none;
-  background-color: #5b51e5;
-  color: #eee;
+  background-color: #ffcc01;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -129,7 +143,7 @@ body {
 }
 
 .hero main .content .btn button:hover {
-  background-color: #5149c2;
+  background-color: #e7b900;
 }
 
 .hero main .hero-image {
@@ -285,17 +299,17 @@ body {
 }
 
 .service .portfolio-btn a {
-  border: 3px solid #5b51e5;
+  border: 3px solid #8c52ff;
   border-radius: 5px;
   padding: 15px 40px;
-  color: #5b51e5;
+  color: #8c52ff;
   font-size: 1.2rem;
   font-weight: bold;
   transition: all 0.2s ease;
 }
 
 .service .portfolio-btn a:hover {
-  background-color: #5b51e5;
+  background-color: #8c52ff;
   color: #eee;
 }
 
@@ -399,7 +413,7 @@ body {
 .footer {
   padding: 6rem 5% 3rem;
   min-height: 30vh;
-  background-color: #231942;
+  background-color: #212121;
 }
 
 .footer main {
@@ -487,14 +501,14 @@ body {
 }
 
 .footer main .subscribe .input input:focus {
-  border: 3px solid #ec4899;
+  border: 3px solid #8c52ff;
 }
 
 .footer main .subscribe .input button {
   padding: 1rem;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
-  background-color: #ec4899;
+  background-color: #8c52ff;
   color: #eee;
   border: none;
   margin-left: 3px;
