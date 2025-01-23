@@ -14,7 +14,7 @@ import video from "../assets/img/videografi.png";
 
 function HomePage() {
   const handleClick = () => {
-    window.location.href = "https://api.whatsapp.com/send/?phone=6285745160032&text&type=phone_number&app_absent=0";
+    window.location.href = "https://api.whatsapp.com/send/?phone=6285608819031&text&type=phone_number&app_absent=0";
   };
   return (
     <>
